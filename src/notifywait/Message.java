@@ -30,4 +30,7 @@ public class Message {
     public void displayMessage(){
         System.out.println(msg);
     }
+    public void speak(){
+        System.out.println("hehe");
+    }
 }
