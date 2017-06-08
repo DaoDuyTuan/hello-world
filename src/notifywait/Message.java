@@ -24,8 +24,8 @@ public class Message {
         this.msg = msg;
     }
     
-    public void infoMessage(){
-        System.out.println("review ok!");
+    public String infoMessage(String out){
+        return out;
     }
     
 }
