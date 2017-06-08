@@ -27,5 +27,7 @@ public class Message {
     public String infoMessage(String out){
         return out;
     }
-    
+    public void displayMessage(){
+        System.out.println(msg);
+    }
 }
