@@ -5,7 +5,7 @@
  */
 package notifywait;
 
-/**
+/** 
  *
  * @author DuyTuan
  */
@@ -24,5 +24,8 @@ public class Message {
         this.msg = msg;
     }
     
+    public void infoMessage(){
+        System.out.println("review ok!");
+    }
     
 }
